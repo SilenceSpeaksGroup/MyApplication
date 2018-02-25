@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0e8a2"
+    tools:context="com.example.silencespeaks.myapplication.EnglishModes">
+
+    <Button
+        android:id="@+id/btnMode1"
+        android:layout_width="205dp"
+        android:layout_height="67dp"
+        android:background="#419e1d"
+        android:fontFamily="monospace"
+        android:text="Mode 1"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <Button
+        android:id="@+id/btnMode2"
+        android:layout_width="205dp"
+        android:layout_height="67dp"
+        android:background="#419e1d"
+        android:fontFamily="monospace"
+        android:text="Mode 2"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <Button
+        android:id="@+id/btnMode3"
+        android:layout_width="205dp"
+        android:layout_height="67dp"
+        android:background="#419e1d"
+        android:fontFamily="monospace"
+        android:text="Mode 3"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="196dp"
+        android:layout_height="158dp"
+        app:srcCompat="@drawable/untitled1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+</android.support.constraint.ConstraintLayout>
